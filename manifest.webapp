@@ -1,0 +1,15 @@
+{
+  "name": "SensorRateTest",
+  "description": "App to test sensor reporting rates on the Web Platform",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/icons/sensor.png",
+    "48": "/icons/sensor.png",
+    "60": "/icons/sensor.png",
+    "128": "/icons/sensor.png"
+  },
+  "developer": {
+    "name": "Flaki",
+    "url": "https://twitter.com/slsoftworks"
+  }
+}

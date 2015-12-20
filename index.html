@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+
+    <title>Hello World</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 1em;
+        text-align: center;
+        background: black;
+        color: white;
+      }
+      button {
+        font-size: 1em;
+        padding: .5em;
+        margin: 1em;
+      }
+      h1 {
+        font-size: 3.5em;
+      }
+    </style>
+
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
+         so we use a script file. -->
+    <script src="app.js" defer></script>
+
+  </head>
+
+  <body><h1>TEST</h1>
+    <button id="raf">Frame Rate (requestAnimationFrame)</button><br>
+    <button id="devicemotion">DeviceMotion frame rate</button><br>      
+    <button id="deviceorientation">DeviceOrientation frame rate</button><br>      
+    <button id="vrsensor">WebVR Position Sensor frame rate</button><br>      
+  </body>
+
+</html>
